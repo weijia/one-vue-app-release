@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f1ad35dba9910d7ac380200ada33d6c4",
+    "revision": "d4616d906b13737f33e9128a46eef4a9",
     "url": "/index.html"
   },
   {
@@ -12,8 +12,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/service-worker.js"
   },
   {
-    "revision": "838057c9c0d55d78c6ee",
+    "revision": "9e75156d07374187366f",
     "url": "/static/css/app.3a6d94df.css"
+  },
+  {
+    "revision": "86bb0e1183589eafe3a9",
+    "url": "/static/css/chunk-00cc5b35.a10c9131.css"
   },
   {
     "revision": "3ed9792ba0a1fd06058e",
@@ -176,10 +180,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/chunk-c2891248.7d926db9.css"
   },
   {
-    "revision": "61a1e71679e8aabb1e1e",
-    "url": "/static/css/chunk-c97a2d6e.ee799f89.css"
-  },
-  {
     "revision": "eabb7331c2a057ffd2f0",
     "url": "/static/css/chunk-commons.7f943dc1.css"
   },
@@ -244,8 +244,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/img/tui-editor.30dd0f52.png"
   },
   {
-    "revision": "838057c9c0d55d78c6ee",
-    "url": "/static/js/app.32196d6f.js"
+    "revision": "9e75156d07374187366f",
+    "url": "/static/js/app.d2fc2dba.js"
+  },
+  {
+    "revision": "86bb0e1183589eafe3a9",
+    "url": "/static/js/chunk-00cc5b35.10b4e914.js"
   },
   {
     "revision": "3ed9792ba0a1fd06058e",
@@ -516,10 +520,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/chunk-c4ca7ea6.a1d61fc7.js"
   },
   {
-    "revision": "61a1e71679e8aabb1e1e",
-    "url": "/static/js/chunk-c97a2d6e.4d1ef2b8.js"
-  },
-  {
     "revision": "eabb7331c2a057ffd2f0",
     "url": "/static/js/chunk-commons.d7790462.js"
   },
@@ -560,8 +560,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/chunk-libs.d41c7d07.js"
   },
   {
-    "revision": "dbabd55b7f21acb5199c",
-    "url": "/static/js/runtime.7e97620d.js"
+    "revision": "56920aad4b199b89933c",
+    "url": "/static/js/runtime.aed09fdb.js"
   },
   {
     "revision": "16fbc2fcdde3dcc929be50d24760e74e",
