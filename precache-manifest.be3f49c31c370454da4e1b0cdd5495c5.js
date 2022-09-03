@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f98ef5057e93dc3a2658caa013470fdf",
+    "revision": "798c057aff5f6301a90e6fd63aa266e1",
     "url": "/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/service-worker.js"
   },
   {
-    "revision": "4c2efd11c57a37df6f60",
+    "revision": "ff746bdd83391e5645e8",
     "url": "/static/css/app.1c65f7dd.css"
   },
   {
@@ -244,8 +244,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/img/tui-editor.30dd0f52.png"
   },
   {
-    "revision": "4c2efd11c57a37df6f60",
-    "url": "/static/js/app.07a6695e.js"
+    "revision": "ff746bdd83391e5645e8",
+    "url": "/static/js/app.83bf5f0a.js"
   },
   {
     "revision": "e8b4eab816167a8abd11",
