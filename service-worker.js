@@ -1,4 +1,4 @@
-importScripts("/precache-manifest.be3f49c31c370454da4e1b0cdd5495c5.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
+importScripts("/precache-manifest.7d0af044250f6ff12ec0fd3b433aa1d6.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 // Files to cache
 const cacheName = 'js13kPWA-v1';
