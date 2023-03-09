@@ -1,25 +1,34 @@
-importScripts("/precache-manifest.7d0af044250f6ff12ec0fd3b433aa1d6.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
+/**
+ * Welcome to your Workbox-powered service worker!
+ *
+ * You'll need to register this file in your web app and you should
+ * disable HTTP caching for this file too.
+ * See https://goo.gl/nhQhGp
+ *
+ * The rest of the code is auto-generated. Please don't update this file
+ * directly; instead, make changes to your Workbox build configuration
+ * and re-run your build process.
+ * See https://goo.gl/2aRDsh
+ */
 
-// Files to cache
-const cacheName = 'js13kPWA-v1';
-const appShellFiles = [
-  // '/static/app.js',
-  // '/static/chunk-vendor.js'
-];
+importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
-const contentToCache = appShellFiles;
+importScripts(
+  "/precache-manifest.e004e3c376d2a23bcdeee5615c2d6820.js"
+);
 
-// Installing Service Worker
-self.addEventListener('install', (e) => {
-  console.log('[Service Worker] Install');
-  // e.waitUntil((async () => {
-  //   const cache = await caches.open(cacheName);
-  //   console.log('[Service Worker] Caching all: app shell and content');
-  //   await cache.addAll(contentToCache);
-  // })());
+workbox.core.setCacheNameDetails({prefix: "vue-element-admin"});
+
+self.addEventListener('message', (event) => {
+  if (event.data && event.data.type === 'SKIP_WAITING') {
+    self.skipWaiting();
+  }
 });
 
-// Fetching content using Service Worker
-self.addEventListener('fetch', function(event) {
-    console.log(event.request.url);
-   });
+/**
+ * The workboxSW.precacheAndRoute() method efficiently caches and responds to
+ * requests for URLs in the manifest.
+ * See https://goo.gl/S9QRab
+ */
+self.__precacheManifest = [].concat(self.__precacheManifest || []);
+workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
